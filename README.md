@@ -2,6 +2,19 @@
 
 A full-stack demo showcasing FastAPI backend with ML text prediction and Preact frontend.
 
+## Quick Start
+
+1. **Setup dependencies:**
+   ```bash
+   make setup
+   ```
+
+2. **Run the application:**
+   ```bash
+   make run
+   ```
+   This starts both backend (http://localhost:8000) and frontend (http://localhost:5173)
+
 ## Project Structure
 
 ```
@@ -11,8 +24,19 @@ A full-stack demo showcasing FastAPI backend with ML text prediction and Preact 
 │   └── requirements.txt
 ├── frontend/         # Preact application
 │   └── src/
+├── Makefile          # Build and run commands
 └── README.md
 ```
+
+## Manual Commands
+
+- **Start backend only:** `make backend`
+- **Start frontend only:** `make frontend`
+- **Run all tests:** `make test`
+- **Run backend tests:** `make test-backend`
+- **Run frontend tests:** `make test-frontend`
+- **Clean up:** `make clean`
+- **View API docs:** `make docs` (opens in browser)
 
 ## Setup
 
