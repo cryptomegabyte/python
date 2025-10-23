@@ -68,6 +68,12 @@ source .venv/bin/activate
 pytest
 ```
 
+Run frontend tests:
+```bash
+cd frontend
+npm test
+```
+
 ## Features
 
 - **Backend:** FastAPI with ML text generation, input validation, error handling, CORS
